@@ -8,10 +8,10 @@ public static void main(String[] args) {
 		int number = Integer.parseInt(javax.swing.JOptionPane.showInputDialog(null, "Enter one number"));
 		
 		if(number % 2 ==0) {
-			System.out.println("O número % é par!"); 
+			System.out.println("O nÃºmero % Ã© par!", number); 
 			
 		} else {
-				System.out.println("O número % é ímpar");
+			System.out.println("O nÃºmero % Ã© Ã­mpar", number);
 				
 		}		
 	}
